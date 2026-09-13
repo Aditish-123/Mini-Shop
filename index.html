@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🛍️ Mini Shop</h1>
+
+    <input type="text" id="searchBox" placeholder="Search products...">
+
+    <div class="cart">
+        🛒 Cart: <span id="cartCount">0</span>
+    </div>
+</header>
+
+<main>
+    <h2>Our Products</h2>
+
+    <div class="products" id="productList">
+
+        <div class="product" data-name="T-Shirt">
+            <img src="https://via.placeholder.com/200x200?text=T-Shirt">
+            <h3>T-Shirt</h3>
+            <p>₹599</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product" data-name="Sneakers">
+            <img src="https://via.placeholder.com/200x200?text=Sneakers">
+            <h3>Sneakers</h3>
+            <p>₹1299</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product" data-name="Watch">
+            <img src="https://via.placeholder.com/200x200?text=Watch">
+            <h3>Watch</h3>
+            <p>₹999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product" data-name="Backpack">
+            <img src="https://via.placeholder.com/200x200?text=Backpack">
+            <h3>Backpack</h3>
+            <p>₹799</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
